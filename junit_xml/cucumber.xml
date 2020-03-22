@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="74.772663">
+<testcase classname="Buy pillows from demo.midtrans.com" name="Buy Pillow using credit card" time="27.855863">
+<system-out><![CDATA[Given user is in home page and title of the page is "Sample Store"..........passed
+Then click on BUY NOW button................................................passed
+And click on CHECKOUT button................................................passed
+Then click on CONTINUE button...............................................passed
+Then verify credit card option is visible...................................passed
+Then click on credit card...................................................passed
+And enter card number "4811 1111 1111 1114".................................passed
+And enter date "03/20"......................................................passed
+And enter CVV "123".........................................................passed
+Then click PAY NOW button...................................................passed
+Then verify payment page appears............................................passed
+Then enter password "112233"................................................passed
+Then click OK button........................................................passed
+Then verify message "Transaction successful"................................passed
+And close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Buy pillows from demo.midtrans.com" name="Buy Pillow using credit card 2" time="46.9168">
+<system-out><![CDATA[Given user is in home page and title of the page is "Sample Store"..........passed
+Then click on BUY NOW button................................................passed
+And click on CHECKOUT button................................................passed
+Then click on CONTINUE button...............................................passed
+Then verify credit card option is visible...................................passed
+Then click on credit card...................................................passed
+And enter card number "4911 1111 1111 1113".................................passed
+And enter date "03/20"......................................................passed
+And enter CVV "123".........................................................passed
+Then click PAY NOW button...................................................passed
+Then verify payment page appears............................................passed
+Then enter password "112233"................................................passed
+Then click OK button........................................................passed
+Then verify message "Your card got declined by the bank"....................passed
+And close browser...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

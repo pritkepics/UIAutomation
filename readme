@@ -1,0 +1,30 @@
+Test automation framework using Selenium WebDriver with Java, 
+TestNG ,Maven and Cucumber, following Page Object Model Design Pattern
+--------------------------------------------------------------------------------
+1. This project demonstrates POM framework and how it can be used 
+   in selenium to automate any application. TestNG is used as test framework.
+   
+2. For reports different options are made available:
+    A. Extent report : PritamSharma_prob01/test-output/Extent.html
+    B. TestNG reports: PritamSharma_prob01/test-output/index.html
+    C. Cucumber reports : PritamSharma_prob01/test-outout/index.html
+
+3. For failed cases, screenshot can be found in ritamSharma_prob01\screenShots folder.
+
+
+5. To run the tests use the following maven command:
+     mvn clean test
+	 
+   OR
+   testng.xml file directly can be used to run the test cases
+   
+   OR 	
+   Using PritamSharma_prob01/src/main/java/MyRunner/TestRunner.java class
+    
+	 
+6. Logs can be found in PritamSharma_prob01/application.log.
+
+7. Tests Data parameterization is done using Cucumber.
+
+8. Global properties are added to file in PritamSharma_prob01/src/main/java/com/qa/config/config.properties,
+    which contains browser name, URL etc.

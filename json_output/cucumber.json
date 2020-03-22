@@ -1,0 +1,500 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 23,
+        "name": "Buy Pillow using credit card",
+        "description": "",
+        "id": "buy-pillows-from-demo.midtrans.com;buy-pillow-using-credit-card;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11540902200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is in home page and title of the page is \"Sample Store\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sample Store",
+                  "offset": 47
+                }
+              ],
+              "location": "CreditCardPayment_StpDef.user_is_in_home_page_and_title_of_the_page_is(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 118505600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on BUY NOW button",
+            "match": {
+              "location": "CreditCardPayment_StpDef.click_on_BUY_NOW_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 372125000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on CHECKOUT button",
+            "match": {
+              "location": "CreditCardPayment_StpDef.click_on_CHECKOUT_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1429551800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on CONTINUE button",
+            "match": {
+              "location": "CreditCardPayment_StpDef.click_on_CONTINUE_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2624255300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify credit card option is visible",
+            "match": {
+              "location": "CreditCardPayment_StpDef.verify_credit_card_option_is_visible()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 123559400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on credit card",
+            "match": {
+              "location": "CreditCardPayment_StpDef.click_on_credit_card()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 260230000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "enter card number \"4811 1111 1111 1114\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4811 1111 1111 1114",
+                  "offset": 19
+                }
+              ],
+              "location": "CreditCardPayment_StpDef.enter_card_number(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75711600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "enter date \"03/20\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "03/20",
+                  "offset": 12
+                }
+              ],
+              "location": "CreditCardPayment_StpDef.enter_date(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60168100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "enter CVV \"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123",
+                  "offset": 11
+                }
+              ],
+              "location": "CreditCardPayment_StpDef.enter_CVV(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 116842300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click PAY NOW button",
+            "match": {
+              "location": "CreditCardPayment_StpDef.click_PAY_NOW_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6333529100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "verify payment page appears",
+            "match": {
+              "location": "CreditCardPayment_StpDef.verify_payment_page_appears()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 130453400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "enter password \"112233\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "112233",
+                  "offset": 16
+                }
+              ],
+              "location": "CreditCardPayment_StpDef.enter_password(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 705215500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "click OK button",
+            "match": {
+              "location": "CreditCardPayment_StpDef.click_OK_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3180108000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "verify message \"Transaction successful\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Transaction successful",
+                  "offset": 16
+                }
+              ],
+              "location": "CreditCardPayment_StpDef.verify_message(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 784705400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "close browser",
+            "match": {
+              "location": "CreditCardPayment_StpDef.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Buy Pillow using credit card",
+        "description": "",
+        "id": "buy-pillows-from-demo.midtrans.com;buy-pillow-using-credit-card;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10318915200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is in home page and title of the page is \"Sample Store\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sample Store",
+                  "offset": 47
+                }
+              ],
+              "location": "CreditCardPayment_StpDef.user_is_in_home_page_and_title_of_the_page_is(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 75377300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on BUY NOW button",
+            "match": {
+              "location": "CreditCardPayment_StpDef.click_on_BUY_NOW_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 660689800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on CHECKOUT button",
+            "match": {
+              "location": "CreditCardPayment_StpDef.click_on_CHECKOUT_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1406593000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on CONTINUE button",
+            "match": {
+              "location": "CreditCardPayment_StpDef.click_on_CONTINUE_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2644873200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify credit card option is visible",
+            "match": {
+              "location": "CreditCardPayment_StpDef.verify_credit_card_option_is_visible()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 222259100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on credit card",
+            "match": {
+              "location": "CreditCardPayment_StpDef.click_on_credit_card()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 234745500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "enter card number \"4911 1111 1111 1113\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4911 1111 1111 1113",
+                  "offset": 19
+                }
+              ],
+              "location": "CreditCardPayment_StpDef.enter_card_number(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72030900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "enter date \"03/20\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "03/20",
+                  "offset": 12
+                }
+              ],
+              "location": "CreditCardPayment_StpDef.enter_date(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 173791100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "enter CVV \"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123",
+                  "offset": 11
+                }
+              ],
+              "location": "CreditCardPayment_StpDef.enter_CVV(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 204894300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click PAY NOW button",
+            "match": {
+              "location": "CreditCardPayment_StpDef.click_PAY_NOW_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5657655300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "verify payment page appears",
+            "match": {
+              "location": "CreditCardPayment_StpDef.verify_payment_page_appears()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 120882900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "enter password \"112233\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "112233",
+                  "offset": 16
+                }
+              ],
+              "location": "CreditCardPayment_StpDef.enter_password(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 729891000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "click OK button",
+            "match": {
+              "location": "CreditCardPayment_StpDef.click_OK_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 23653551100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "verify message \"Your card got declined by the bank\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Your card got declined by the bank",
+                  "offset": 16
+                }
+              ],
+              "location": "CreditCardPayment_StpDef.verify_message(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 740650300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "close browser",
+            "match": {
+              "location": "CreditCardPayment_StpDef.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Buy pillows from demo.midtrans.com",
+    "description": "",
+    "id": "buy-pillows-from-demo.midtrans.com",
+    "keyword": "Feature",
+    "uri": "creditCardPayment.feature"
+  }
+]
